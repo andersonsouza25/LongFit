@@ -1,0 +1,45 @@
+<section id="receitas-fit">
+			<div class="container">
+			<div class="row title-section"> Receitas</div>
+			</div>
+			<div class="container main">
+				<div  class="row">
+					<div class="col-md-2 col-sm-2 col-lg-2">
+						
+						<ul id="receitas" class="btn-group-vertical">
+							<li id="0" class="receitas-item ">batata</li>
+							<li id="1" class="receitas-item">1</li>
+							<li id="2" class="receitas-item">2</li>
+							<li id="3" class="receitas-item">3</li>
+							<li id="4" class="receitas-item">4</li>
+							<li id="5" class="receitas-item">5</li>
+							<li id="6" class="receitas-item">6</li>
+						</ul>
+					</div>
+
+					<div  class="col-md-10 col-sm-10 col-lg-10 receita-body ">
+					
+						<div id="nome-receitas" class="">
+							
+						</div>
+
+						<div id="lista-ingrediente">
+
+						</div>
+
+						<div id="porcao-receita">
+							
+						</div>
+
+						<div id="preparo-receita">
+							
+						</div>
+
+						<div id="objetivo-receita">
+							
+						</div>
+
+					</div>
+				</div><!--fim linha principal-->
+			</div><!--fim do container principal-->
+		</section>

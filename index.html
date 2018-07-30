@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<!--My style-->
+	<link rel="stylesheet" type="text/css" href="css/estilo_academia.css">
+
+	<!--Google fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+	<!--Google fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+
+
+
+
+	<!--My jquery-->
+	<script type="text/javascript " src="script/jqueryLong.js"></script>
+
+	<title>Long fit</title>
+	<link rel="icon"  href="img/favicon-logo.png">
+</head>
+<body>
+
+	<!--Menu inicio-->
+	<div class="collapse" id="navbarToggleExternalContent">
+		<div class="bg-dark p-4">
+			<form class="form-group">
+				
+				<input type="email" class="form-control m-form" id="email-contato" placeholder="seu email">
+				
+				
+				<input type="password" class="form-control m-form" id="email-contato" placeholder="sua senha">
+				<button class="btn btn-primary m-form">Entrar</button>
+			</form>
+		</div>
+	</div>
+	<nav class="navbar navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<ul class="navbar nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#long-fit-app">Nosso app</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#valores-planos">Planos</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#cronograma">Aulas</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#equipe">Equipe Long</a>
+			</li>
+		</ul>
+	</nav>
+	<!--Menu fim-->
+
+	<section class="capa ">
+		<div class="row">
+			<div class="container" style="margin-top: 250px; font-family: 'Barlow';">
+				<h1> <strong>Academia de verdade</strong> </h1>
+				<h2>Saúde e bem estar</h2>
+				<h5> Melhore seu condicionamento e disposição física com a Long Fit.</h5>
+				<button class="btn ans-btn">Comece seu treino agora</button>
+			</div>
+		</div>
+		
+	</section>
+
+
+	<section id="cronograma">			
+		<div class="title-section" style="	color: green;">Aulas na Long Fit</div>
+
+		<center><h5 style="margin-top: 10px;"> Da uma olhada nos nosso plano semanal e venha fazer uma aula.</h5></center>
+
+
+		<div class="row" style="margin-top: 30px;">
+			
+			<div class="col-md-3 col-sm-3 col-lg-3">
+				<div class="container">
+
+					<ul class="list-group list-group-flush">
+						<li id="segunda_item"class="list-group-item list-group-item-action">Segunda</li>
+						<li id="terca_item" class="list-group-item list-group-item-action">Terça</li>
+						<li id="quarta_item" class="list-group-item list-group-item-action">Quarta</li>
+						<li id="quinta_item" class="list-group-item list-group-item-action">Quinta</li>
+						<li id="sexta_item" class="list-group-item list-group-item-action">Sexta</li>
+						<li id="sabado_item" class="list-group-item list-group-item-action">Sábado</li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			<div class="col-md-9 col-sm-9 col-lg-9">
+				<div id="monday">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/yoga_icon.png">
+									<h5 class="card-title">Yoga</h5>
+									<h6 class="card-subtitle mb-2 text-muted">18:00 as 19:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Alexandre</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/body_building.png">
+									<h5 class="card-title">Musculação</h5>
+									<h6 class="card-subtitle mb-2 text-muted">16:00 - 18:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Eduardo</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/box.png">
+									<h5 class="card-title"> Aulas de box</h5>
+									<h6 class="card-subtitle mb-2 text-muted">12:00 as 14:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Maria</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/bike.png">
+									<h5 class="card-title">Ciclismo</h5>
+									<h6 class="card-subtitle mb-2 text-muted">14:00 as 15:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Diego</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--terca-->
+				<div id="tuesday">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/body_building.png">
+									<h5 class="card-title">Musculação</h5>
+									<h6 class="card-subtitle mb-2 text-muted">18:00 as 19:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Ana</h6>
+								</div>
+							</div>
+						</div>
+						
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/yoga_icon.png">
+									<h5 class="card-title">Yoga</h5>
+									<h6 class="card-subtitle mb-2 text-muted">16:00 - 18:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Jesica</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/box.png">
+									<h5 class="card-title"> Aulas de box</h5>
+									<h6 class="card-subtitle mb-2 text-muted">12:00 as 14:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Yago</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/bike.png">
+									<h5 class="card-title">Ciclismo</h5>
+									<h6 class="card-subtitle mb-2 text-muted">14:00 as 15:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Marcia</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Quarta-->
+				<div id="wednesday">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/yoga_icon.png">
+									<h5 class="card-title">Yoga</h5>
+									<h6 class="card-subtitle mb-2 text-muted">18:00 as 19:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Simone</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/body_building.png">
+									<h5 class="card-title">Musculação</h5>
+									<h6 class="card-subtitle mb-2 text-muted">16:00 - 18:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Thiago</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/box.png">
+									<h5 class="card-title"> Aulas de box</h5>
+									<h6 class="card-subtitle mb-2 text-muted">12:00 as 14:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Leandro</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/bike.png">
+									<h5 class="card-title">Ciclismo</h5>
+									<h6 class="card-subtitle mb-2 text-muted">14:00 as 15:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Sibele</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Quinta-->
+				<div id="thursday">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/yoga_icon.png">
+									<h5 class="card-title">Yoga</h5>
+									<h6 class="card-subtitle mb-2 text-muted">18:00 as 19:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Waldemar</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/body_building.png">
+									<h5 class="card-title">Musculação</h5>
+									<h6 class="card-subtitle mb-2 text-muted">16:00 - 18:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Lucas</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/box.png">
+									<h5 class="card-title"> Aulas de box</h5>
+									<h6 class="card-subtitle mb-2 text-muted">12:00 as 14:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Leonardo</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/bike.png">
+									<h5 class="card-title">Ciclismo</h5>
+									<h6 class="card-subtitle mb-2 text-muted">14:00 as 15:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Amanda</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Sexta-->
+				<div id="friday">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/yoga_icon.png">
+									<h5 class="card-title">Yoga</h5>
+									<h6 class="card-subtitle mb-2 text-muted">18:00 as 19:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Julia</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/body_building.png">
+									<h5 class="card-title">Musculação</h5>
+									<h6 class="card-subtitle mb-2 text-muted">16:00 - 18:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Claudio</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/box.png">
+									<h5 class="card-title"> Aulas de box</h5>
+									<h6 class="card-subtitle mb-2 text-muted">12:00 as 14:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Carol</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/bike.png">
+									<h5 class="card-title">Ciclismo</h5>
+									<h6 class="card-subtitle mb-2 text-muted">14:00 as 15:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Paula</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Sabado-->
+				<div id="saturday">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/yoga_icon.png">
+									<h5 class="card-title">Yoga</h5>
+									<h6 class="card-subtitle mb-2 text-muted">18:00 as 19:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Alexandre</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/body_building.png">
+									<h5 class="card-title">Musculação</h5>
+									<h6 class="card-subtitle mb-2 text-muted">16:00 - 18:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Eduardo</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/box.png">
+									<h5 class="card-title"> Aulas de box</h5>
+									<h6 class="card-subtitle mb-2 text-muted">12:00 as 14:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Maria</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-lg-6">
+							<div class="card ans-card card-aulas-semana ">
+								<div class="card-body">
+									<img class="rounded mx-auto d-block" src="img/bike.png">
+									<h5 class="card-title">Ciclismo</h5>
+									<h6 class="card-subtitle mb-2 text-muted">14:00 as 15:00</h6>
+									<h6 class="card-subtitle mb-2 text-muted">Prof: Diego</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<a id="ans-btn-ver" href="" class="btn ans-btn" style="text-align: center; margin-bottom: 5px;"> ver mais</a>
+	</section>
+
+
+	<section id="long-fit-app">
+		<div class="transparent">
+			<div class="title-section" style="color:white;">Nosso App</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-lg-4 col-sm-4">
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-4">
+						<div class="btn-group m-group " >
+							<img class="img-app-item" src="img/peso_icon.png">
+							<img class="img-app-item" src="img/disciplina.png">
+							<img class="img-app-item" src="img/alimentacao.png">
+							<img class="img-app-item" src="img/lista.png">
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-4">
+					</div><!--fim linha app-->
+
+					<div class="row"></div>
+
+					<div class="row">
+						Com o app da long fit você pode acompanhar tudo que acontece na academia e ver os horarios das aulas diponiveis, acompanhar as dicas de dietas, ver seus treinos e muito mais.
+						<div class="col-md-4 col-lg-4 col-sm-4"></div>
+						<div class="col-md-4 col-lg-4 col-sm-4">
+							<button id="btn-play"class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> </button>
+
+						</div><!--fim do btn-->
+					</div>
+					<div class="row">
+						<div class="collapse" id="collapseExample">
+							<div class="alert alert-success" role="alert">
+								<h1 style="text-align: center;" class="alert-heading">Obrigado pelo interresse pelo nosso app!</h1>
+								<p>Nosso aplicativo está em desenvolvimento e logo será lançado para nossos usuarios fique atento logo terá o app long fit nas lojas de aplicativos para android e ios.</p>
+								<hr>
+								<center><img src="img/feliz.png"></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--fim transparent-->
+		</section><!--fim sessao-->
+
+		<section id="equipe">
+			<div class="row transparent">
+				<div class="container">
+					<h1 class="title-section" style="color: white">A famila Long Fit</h1>
+				</div>
+
+			</div>
+			<div class="row transparent">
+				
+				<div class="col-md-4" >
+					<img data-toggle="collapse" href="#decricaoMarcos" role="button" aria-expanded="false" aria-controls="decricaoMarcos" src="img/instrutor1.png" class="card-equipe" >
+				</div>
+
+				<div class="col-md-4">
+					<img data-toggle="collapse" href="#decricaoAna" role="button" aria-expanded="false" aria-controls="decricaoAna" src="img/instrutorAna.png" class="card-equipe">
+				</div>
+				<div class="col-md-4">
+					<img data-toggle="collapse" href="#decricaoRogerio" role="button" aria-expanded="false" aria-controls="decricaoJulio" src="img/instrutorRogerio.png" class="card-equipe">
+				</div>
+
+			</div>
+
+			
+			<div class="row transparent">
+				<div class="col-md-4">
+					<div class="collapse" id="decricaoMarcos">
+						<div class="alert descricao" role="alert">
+							<h1 class="nome-fun">Marcos</h1>
+							<hr>
+							<div class="body_descricao">
+								<p> Marcos é um cara legal, ótimo treinador e seus alunos sempre curtem suas aulas.</p>
+								<hr>
+								<h4>Atividade de Marcosna long Fit
+									<div class="container">
+										<ul class="list-group">
+											<li class="list-group-item">Box</li>
+											<li class="list-group-item">Muay tay</li>
+											<li class="list-group-item">Ciclismo</li>
+										</ul>
+									</div>
+								</h4>
+							</div>
+							<hr>
+							<div class="row">
+
+								<div class="col-md-4">
+									<img src="img/iconFace.png">
+								</div>
+
+								<div class="col-md-4">
+
+								</div>
+								<div class="col-md-4">
+									<img src="img/iconInsta.png">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div><!--col marcos-->
+				<div class="col-md-4">
+					<div class="collapse" id="decricaoAna">
+						<div class="alert descricao" role="alert">
+							<h1 class="nome-fun">Ana</h1>
+							<hr>
+							<div class="body_descricao">
+								<p> Ana é a mais nova integrante da familia, e já conquito nosso coração e seu espaço aqui na academia.</p>
+								<hr>
+								<h4>Atividade de Ana long Fit
+									<div class="container">
+										<ul class="list-group">
+											<li class="list-group-item">Yoga</li>
+											<li class="list-group-item">Box</li>
+											<li class="list-group-item">Ciclismo</li>
+										</ul>
+									</div>
+								</h4>
+							</div>
+							<hr>
+							<div class="row">
+
+								<div class="col-md-4">
+									<img src="img/iconFace.png">
+								</div>
+
+								<div class="col-md-4">
+
+								</div>
+								<div class="col-md-4">
+									<img src="img/iconInsta.png">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div><!--col Ana -->
+
+
+				<div class="col-md-4">
+					<div class="collapse" id="decricaoRogerio">
+						<div class="alert descricao" role="alert">
+							<h1 class="nome-fun">Julio</h1>
+							<hr>
+							<div class="body_descricao">
+								<p> Julio é um dos treinandores e instrutores mais antigos da long, seus alunos sempre curtem suas aulas.</p>
+								<hr>
+								<h4>Atividade de Julio na long Fit
+									<div class="container">
+										<ul class="list-group">
+											<li class="list-group-item">Luta</li>
+											<li class="list-group-item">Musculação</li>
+											<li class="list-group-item">Yoga</li>
+										</ul>
+									</div>
+								</h4>
+							</div>
+							<hr>
+							<div class="row">
+
+								<div class="col-md-4">
+									<img src="img/iconFace.png">
+								</div>
+
+								<div class="col-md-4">
+
+								</div>
+								<div class="col-md-4">
+									<img src="img/iconInsta.png">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+
+		<section id="valores-planos">
+			<div class="transparent">
+				<h1 class="title-section" style="color: white">Nosso planos</h1>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="valorPlano">
+								<h3 class="title-plano">Platina</h3>
+								<div class="valorPromocao">R$ 70</div>
+								<div class="valorAntigo">R$ 100</div>
+								<hr>
+								<p class="container">
+									Tenha acesso a toda a área de musculação da academia e 3 aulas a sua escolha. Com esse plano você fica tão forte quanto os Claudius :).
+								</p>
+								<hr>
+								<button class="btn btn-compra">Selecionar Esse plano</button>
+							</div>
+						</div><!--Col -->
+
+						<div class="col-md-3">
+							<div class="valorPlano">
+								<h3 class="title-plano">Gold</h3>
+								<div class="valorPromocao">R$ 100</div>
+								<div class="valorAntigo">R$ 250</div>
+								<hr>
+								<p class="container">
+									Tenha acesso a toda a área de musculação da academia e 6 aulas a sua escolha. Com esse plano você fica tão forte quanto o gavião arqueiro.
+								</p>
+								<hr>
+
+								<button class="btn btn-compra">Selecionar esse plano </button>
+
+							</div>
+						</div><!--Col -->
+
+						<div class="col-md-3">
+							<div class="valorPlano">
+								<h3 class="title-plano">Diamond</h3>
+								<div class="valorPromocao">R$ 200</div>
+								<div class="valorAntigo">R$ 350</div>
+								<hr>
+								<p class="container">
+									Tenha acesso a toda a área de musculação da academia,  6 aulas a sua escolha e piscina. Com esse plano você fica tão forte quanto o Hulk.
+								</p>
+								<hr>
+
+								<button class="btn btn-compra">Selecionar esse plano </button>
+
+							</div>
+						</div><!--Col -->
+
+						<div class="col-md-3">
+							<div class="valorPlano">
+								<h3 class="title-plano">Safira</h3>
+								<div class="valorPromocao">R$ 400</div>
+								<div class="valorAntigo">R$ 450</div>
+								<hr>
+								<p class="container">
+									Tenha acesso a toda a área de musculação da academia, 6 aulas a sua escolha e piscina. Com esse plano você fica tao forte quanto o Thanos.
+								</p>
+								<hr>
+
+								<button class="btn btn-compra">Selecionar esse plano </button>
+
+							</div>
+						</div><!--Col -->
+
+					</div><!--linha princiapal-->
+				</div><!--Container princiapal-->
+			</div><!--Transparent-->
+		</section><!--Sessão valores-planos-->
+
+		<footer id="footer-academia">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h1 class="title-section">Quem Somos</h1>
+						<div class="row">
+							<p>Somos a Long fit, uma academia de exelente trabalho e dedicação, procurando sempre oferecer o melhor do mundo fit para os alunos.
+							</p>
+							<p>Se você que ser fit ou apenas quer contruir uma vida saudável, aqui é o lugar que vai ajuda-lo a começar.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<h1 class="title-section">Endereço:</h1>
+						</div>
+						<div class="endereco-item">
+							<div class="col">
+								<img src="img/gps.png">Rua Ana Gloria,113, São Paulo
+							</div>
+						</div>
+						<div class="endereco-item">
+							<img src="img/fone.png">(11) 948986366
+						</div>
+						<div class="endereco-item">
+							<img src="img/email.png">long_fit@gmail.com
+						</div>
+						<div class="endereco-item">
+							<img src="img/site.png" href="index.html">longfit.com.br
+						</div>
+					</div>
+					<div class="col-md-4 form-group">
+						<h4>Manda uma mensagem para gente que vamos responder rapidinho</h4>
+						<form >
+							<input type="text" class="form-control m-form" id="nome-contato" placeholder="seu nome" >
+							<input type="email" class="form-control m-form" id="email-contato" placeholder="seu email">
+							<textarea class="form-control m-form" id="mensagem-contato" rows="3" placeholder="seu mensagem"></textarea>
+							<button class="btn btn-primary m-form" style="background: green;">Enviar </button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="container s-producoes">
+					Esse site foi desenvolvido por <i>souza-produções</i>
+				</div>
+			</div>
+		</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

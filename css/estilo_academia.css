@@ -1,0 +1,326 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark,*, ::after, ::beforeudio, video,
+element.style{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	box-sizing: block;
+	vertical-align: baseline;
+}
+
+/* Standard syntax */
+
+@font-face {
+	font-family:'Gaegu-Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Gaegu-Bold.ttf');
+}
+html,body{
+	width: 100%;
+	color: white;
+	overflow-x: hidden;
+	height: 100%;
+	font-family: 'Barlow';
+	font-size: 17px;
+
+}
+a{
+	color: white;
+}
+
+/*area de ids*/
+#cronograma{
+	height: auto;
+	background-color: white;
+	text-align: center;
+	color:#808080;	
+}
+#long-fit-app{
+	height: auto;
+	background:url('../img/app-capa.png');
+}
+#footer-academia{
+	height: auto;
+	width: 100%;
+	background: #191970;
+}
+.nome-fun{
+	color: white;
+	text-align: center;
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	background:green;
+}
+.descricao{
+	width: auto;
+	height: auto;
+	background: white;
+	color:black;
+}
+#equipe{
+	height: auto;
+	width: 100%;
+	background:url('../img/equipe-fundo.jpg');
+}
+.card-equipe{
+	height: auto;
+	width: auto;
+	margin-top: 50px;
+	margin-left:5px;
+	box-shadow: 9px 3px 2px rgba(50, 50, 50, 0.77);
+}
+#valores-planos{
+	height: auto;
+	width: 100%;
+	background:url('../img/planos.jpg');
+}
+.main{
+	margin-top: 80px;
+	font-size: 40px;
+}
+#btn-play{
+	background-image: url('../img/btn-play.png');
+	align-items: center;
+	height: 77px;
+	width: 268px;
+}
+
+
+.endereco-item{
+	margin-top: 10px;
+
+}
+
+/*area de classes*/
+.img-app{
+	margin-left: 200px;
+	height: auto;
+}
+.capa{
+	border-radius: 70px blue;
+	height: 800px;
+	background-image: url('../img/capa.png');
+	
+}
+.valorPlano{
+	margin-top: 10px;
+	height: 480px;
+	width: auto;
+	color: black;
+	background:white;
+	text-align: center;
+	box-shadow: 9px 3px 2px rgba(50, 50, 50, 0.77);
+	border-radius: 10px;
+}
+.title-plano{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #C0C0C0;
+}
+.btn-compra{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	background:#C0C0C0;
+}
+.btn-compra:hover{
+	background:green;
+}
+.valorPromocao{
+	font-size: 80px;
+	text-align: left;
+	color:green;
+
+}
+.valorAntigo{
+	font-size: 40px;
+	text-align: right;
+	color:red;
+	text-decoration: line-through;
+}
+.title-section{
+	text-align: center;
+	font-size: 60px;
+	color:white;
+}
+.m-form{
+	margin-top: 15px;
+}
+.s-producoes{
+	text-align: center;
+	text-transform: uppercase;
+}
+.list-group{
+	display: block;
+}
+}
+.list-group-item{
+	display: block;	
+}
+.list-group-app{
+	padding: 0;	
+}
+.list-app-item{
+	margin-top: 10px;
+
+}
+.transparent-capa{
+	height: auto;
+	background: rgba(0,0,0,0.6);
+}
+
+.transparent{
+	height: auto;	
+	background: rgba(0,0,0,0.6);
+}
+.text-app{
+	width: 100%;
+	color: white;
+	font-size: 22px;
+}
+
+.img-app-item{
+	border:1px solid #00BFFF;
+	margin: 2px;
+	width:80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #00FF7F;
+}
+.m-group{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.btn-secondary:hover{
+	background-color: green;
+}
+.btn-secondary{
+	height: auto;
+	width: auto;
+	margin-top: 20px;
+	
+	background-color: blue;
+}
+.m-group{
+	margin-left: 220px;
+}
+
+
+h1{
+	font-size: 50px;
+
+}
+.motivos{
+	margin:10px solid red;
+	color:white;
+}
+
+/*minhas listas*/
+.list-group-item,.list-group-item-action{
+	border:none;
+	background-color: transparent;
+}
+.list-group-item:hover,.list-group-item-action:hover{
+	background: #32CD32;
+	border-radius: 30px;
+}
+.receitas-item{
+	margin: 10px;
+
+}
+.receita-body{
+	border:4px solid white;
+}
+.receitas-item:hover{
+	margin: 10px;
+	border-bottom:  3px solid black;
+}
+.diasAulas:hover{
+	margin-top: 20px;
+	margin-bottom: 10px solid  green;
+}
+
+/*meus botoes*/
+.m-btn:hover{
+	background: white;
+}
+.ans-btn{
+	margin-top: 12px;
+	width: auto;
+	background-color: green;
+	color:black;
+	border-radius: 40px;
+
+}
+
+.ans-btn:hover{
+	
+	background-color: blue;
+	color:white;
+	
+}
+
+/*meus cartoes*/
+.card-title{
+	text-align: center;
+}
+.ans-card{
+	height: auto;
+	width: 200px;
+	border:1px solid blue;
+
+}
+.perfil-img{
+	height: auto;
+	border-radius: 100%;
+	border:2px solid green;
+}
+.depoimento{
+	color:#A9A9A9;
+}
+.ans-card-depoimento{
+	height: auto;
+	width: auto;
+	border-radius: 5%;
+	border:2px solid blue;
+	margin-top:8px;
+	background:transparent;
+}
+.ans-card-depoimento:hover{
+	border:2px solid green;
+	
+}
+.ans-card:hover{
+	height: auto;
+	width: 200px;
+	border:2px solid green;
+
+}
+.card-aulas-semana{
+	margin-top: 10px;
+	text-align: center;
+
+}
+
+
+.card-formt-depoimento{
+	margin-top: 10px;
+	text-align: center;
+}
