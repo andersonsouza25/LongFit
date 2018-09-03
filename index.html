@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Barbearia L</title>
+
+
+	<!-- Bootstrap4 
+<link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+core CSS -->
+
+
+	<!-- Bootstrap3 core CSS
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+-->
+
+
+
+<!-- bootstrap - link cdn -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!--Meu estilo-->
+<link rel="stylesheet" type="text/css" href="css/estiloBarbearia.css">
+
+<script type="text/javascript" src="scripts/scriptBarbeariaL.js"></script>
+
+
+</head>
+<body onload=start();>
+</div>
+<!--inicio menu---->
+<nav class="navbar navbar-fixed-top  navbar-inverse  m-nav-transparent">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a href="#" class="navbar-brand">Logo</a>
+
+		</div>
+
+		<div class="collapse navbar-collapse" id="menu">
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#m-section-service"> Serviços</a></li>
+				<li><a href="#m-section-history"> Historia</a></li>
+				<li><a href="#m-section-haircut"> Cortes</a></li>
+				<li><a href="#m-section-local"> Local</a></li>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+</nav><!--final menu---->
+
+<div class="container">
+	<div class="page-header">
+		<h1 class="m-titulo">Barbearia Teste</h1>
+
+		<small class="subtitulo"> Venha deixar seu visu topster</small>
+	</div>
+</div>
+
+<center>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner m-carousel m-transparent"" role="listbox">
+
+			<div class="item active ">
+				<img src="img/bannerLogo.png" alt="...">
+				<div class="carousel-caption">
+					...
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="img/banner1.png" alt="..." >
+				<div class="carousel-caption">
+					...
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="img/banner2.png" alt="..." >
+				<div class="carousel-caption">
+					...
+				</div>
+			</div>
+
+
+			<div class="item">
+				<img src="img/banner3.png" alt="...">
+				<div class="carousel-caption">
+					...
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="img/banner4.png" alt="..." >
+				<div class="carousel-caption">
+					...
+				</div>
+			</div>
+		</div>
+
+	</center>
+
+	<!-- Controls -->
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+
+<!-- inicio servisos-->
+<section id="m-section-service" class="m-transparent row">
+	<!--linha de produtos-->	
+	<div class="col-sm-4 col-md-4">
+		<div class="thumbnail cardEdt">
+			<img src="img/iconCabelo.png" alt="...">
+			<div class="caption">
+				<h3>cabelo</h3>
+				<p>vamos la deixar o cabelinho na regua</p>
+				<button class="btn btn-primary"> Ver cortes</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-4 col-md-4">
+		<div class="thumbnail cardEdt">
+			<img src="img/iconBigode.png" alt="...">
+			<div class="caption">
+				<h3>Bigodin</h3>
+				<p>Deixe o bigodin finin tambem...</p>
+				<button class="btn btn-primary"> Ver estilos</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-4 col-md-4">
+		<div class="thumbnail cardEdt">
+			<img src="img/iconBarba.png" alt="...">
+			<div class="caption">
+				<h3>barba</h3>
+				<p>E deixar aquela barba monstrona</p>
+				<button class="btn btn-primary"> Ver barbas</button>
+			</div>
+		</div>
+	</div>
+	
+</section><!--fim serviços capa-->
+
+<h1 class=" container textDefault"> Aqui você pode tambem se produzir par um dia importante.</h1>
+
+<hr class="separator">
+
+<section id="m-section-events" class="row m-transparent">
+	<!--card Aniversario-->
+	<div class="col-md-4 col-sm-4">
+		<div class=" thumbnail cardEdt events" style=" background: url(img/imgAni1.png");>
+			<h3 class="titeEvent m-transparent">Aniversario</h3>
+			<p class="textEvent m-transparent">Faça o melhor corte para seu dia</p>
+		</div>
+	</div>
+	<!--card noivo-->
+	<div class="col-md-4 col-sm-4">
+		<div class="thumbnail cardEdt events" style=" background: url(img/imgDiaNoivo1.png");>
+			<h3 class="titeEvent m-transparent">Dia do noivo/Padrinho</h3>
+			<p class="textEvent m-transparent">No dia que voce escolhe com quem vai passar a vida.</p>
+		</div>
+	</div>
+
+	<!--card dia a dia-->
+	<div class="col-md-4 col-sm-4">
+		<div class="thumbnail cardEdt events" style=" background: url(img/imgSBem3.png");>
+			<h3 class="titeEvent m-transparent">So arrumar o visu </h3>
+			<p class="textEvent m-transparent">So ficar com o visual foda</p>
+		</div>
+	</div>
+</div>
+
+</section>
+<hr class="separator">
+
+
+<section id="m-section-effectPhrases" class="row m-transparent">
+	<div class="col-md-12">
+		<center> <h1 class="textDefaut">Barbearia top</h1></center>
+		<center> <h2 class="textDefaut" >Aqui você deixa seu estilo top</h2></center>
+		<center> <h3 class="textDefaut">Com o cabilin na regua e o bigodin finin </h3></center>
+		<center> <h4 class="textDefaut">Bora ser Topster</h4></center>
+	</div>
+</section>
+
+<hr class="separator">
+
+<!--Historia-->
+<section id="m-section-history" class="container m-transparent row">
+	
+	<h1 class="textDefaut">Historia</h1>
+	<div class=" col-md-6 col-sm-6">
+		<p id="text-history"class="textDefault">Aqui na L somo cheios de vontade e estilo sempre preocupados em deixar você top semprea para a melhor ocasião seja para o dia a dia, um aniversario, festa ou ate mesmo para o dia de seu casamento pensou estilo top penso na <strong>BARBEARIA L</strong></p>
+	</div>
+	<div class="col-md-6 col-sm-6">
+		<img id="ans-img-team" src="img/EquipeL.png" class="rounded">
+	</div>
+</section>
+
+<hr class="separator">
+<section id="m-section-haircut" class=" container m-transparent row">
+	<h2><p class="textDefaut">nossos cortes sao os mais tops se liga so</p></h2>
+	<!--Cortes-->
+	<div class="col-md-6">
+		<center> 
+			<div >
+				<button class="btn btn-primary m-btn-control" id="btn-c-Ant" onclick=comandAntC();><span class="glyphicon glyphicon-chevron-left"> </span> </button>
+				<img id="slide-c" >
+				<button class="btn btn-primary m-btn-control" id="btn-c-Next" onclick=comandNextC();><span class="glyphicon glyphicon-chevron-right"> </span></button>
+			</div> 
+		</center>
+	</div>
+	<!--Cortes-->
+	<div class="col-md-6">
+		<center> 
+			<div >
+				<button class="btn btn-primary m-btn-control" id="btn-b-Ant" onclick=comandAntB();><span class="glyphicon glyphicon-chevron-left"> </span> </button>
+				<img id="slide-b" >
+				<button class="btn btn-primary m-btn-control" id="btn-b-Next" onclick=comandNextB();><span class="glyphicon glyphicon-chevron-right"> </span></button>
+			</div> 
+		</center>
+	</div>
+
+	<div class="row">
+		<center><p>Se quiser ver mais é so ir na nossa pagina de cortes</p> <a href="cortes.html"><button class="btn btn-primary m-btn"> ver tudo</button></a></center>
+	</div>
+
+</section>
+<hr class="separator">
+
+<section id="m-section-local" class="container m-transparent row">
+	<center> 
+
+		<h1> <span id="m-icon-maps" class="glyphicon glyphicon-map-marker"></span> </h1>
+
+
+		<p class="textDefault">Estamos localizados em um lugar que voce pode achar, se liga no mapa. <span class="glyphicon glyphicon-arrow-down"></span></p>
+		<div id="m-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7319.268331342944!2d-46.61509152556079!3d-23.4736570479292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef6687a443343%3A0xa7259425379d462c!2sTucuruvi%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1528923975975" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+	</center>
+</section>
+
+
+<hr class="separator">
+<footer>
+	<div class="panel panel-default m-transparent row">
+		<div class="m-transparent" id="m-footer-header">Barbearia L</div>
+		<div class="panel-body m-transparent" id="m-footer-body">
+
+
+			<div class="col-md-6">
+				<img id="m-face"> <p> Facebook</p>
+				<img id="m-insta"> <p> Intagran</p>
+			</div>
+
+			<div class="col-md-6">
+				<ul>
+					<li> Rua nao sei,87</li>
+					<li> Bairro inventado</li>
+					<li> telefone: não tem </li>
+					<li> www.barbeariaL.com.br</li>
+				</ul>
+			</div>
+
+
+		</div>
+	</div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

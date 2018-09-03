@@ -1,0 +1,154 @@
+body{
+	background: url("../img/fundoMadeira.jpg");
+	overflow-x: hidden;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+.m-btn-control{
+	padding: 5px;
+	background: rgba(0,0,0,0.6);
+	border:none;
+	height: 250px;
+	
+}
+.m-btn{
+padding: 5px;
+width: 100%;
+height: auto;
+background: rgba(0,0,0,0.6);
+color: #FDD247;
+}
+.imgCorte{
+	width: auto;
+	height: auto;
+	background: red;
+}
+.m-nav-transparent{
+	padding: 2px;
+	background: rgba(0,0,0,0.6);
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: blue;
+	/*
+		quando passa o mouse
+	*/
+}
+.capa{
+	display: table;
+	height:auto;
+}
+.cardEdt{
+	border: groove 10px #FDD247;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 250px;
+	height: auto;
+	text-align: center;
+}
+.m-test{
+	background: red;
+}
+.events{
+	height: 250px;
+	width: 250px;
+	border: 5px groove #FDD247;
+}
+.titeEvent{
+	color:white;
+}
+.textEvent{
+	margin-top: 50%;
+	color: white;
+}
+.m-transparent{
+	height: auto;
+	background: rgba(0,0,0,0.6);
+	width: auto;	
+}
+.textDefaut{
+	color: white;
+	margin-left: 30px;
+}
+@font-face{
+	font-family: Mathilda in Wonderland;
+	src:url(../fonts/Mathilda in Wonderland.ttf);
+}
+.m-titulo{
+	font-family: testeFonte;
+	font-size: 90px;
+	font-style: italic;
+	color: white;
+	padding-top: 15px;
+}
+.subtitulo{
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	font-style: italic;
+}
+.separator{
+	border: groove 3px #FDD247;
+	padding: 2px;
+	background: white;
+}
+#slide{
+	width: auto;
+	height: auto;
+	background: transparent;
+}
+#descricao{
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+}
+#m-footer-header{
+	padding: 15px;
+	border: groove 5px #FDD247;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+#m-footer-body{
+	padding: auto;
+	height: auto;
+}
+
+#ans-img-team{
+	border: groove 2px #FDD247;
+}
+#text-history{
+	float: center;
+	margin-top: 55px;
+}
+#m-icon-maps{
+	color: #FDD247;
+	font-size: 80px;
+}
+
+#m-map{
+	height: auto;
+	width: auto;
+}
+#m-section-local{
+	float: center
+}
+
+#m-face{
+	
+	background: url(../img/iconFace.png);
+	padding: 43px;
+	text-transform: uppercase;
+}
+#m-insta{
+	
+	background: url(../img/iconInsta.png);
+	padding: 43px;
+	text-transform: uppercase;
+}
