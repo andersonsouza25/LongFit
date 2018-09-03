@@ -25,7 +25,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Aulas</a>
+        <a class="nav-link" href="#">Aulasllllll</a>
       </li>
 
       <li class="nav-item">
